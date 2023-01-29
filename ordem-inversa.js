@@ -7,23 +7,26 @@
        
 //     }
 //    return palavraInvertida;
-// }
+// 
 
 // console.log(ordemInversa("AMOR"));
 
 
 var lista = [2, 5, 7, 9, 12, 18, 20];
 
-function encontraNumero (numero){
+function encontraNumero(numero){
     var existe = false;
     
     for (var i = 0; i < lista.length; i++){
         if (lista[i] === numero){
             existe = true;
             
+            
             //ao encontrar o número na lista, ele para de verificar no restante da lista.
         }
-        console.log(i, true) ;
     }
- console.log(encontraNumero(18));
+    
+    return existe;
 }
+ var verificaNum = encontraNumero(2);
+ console.log(verificaNum);
