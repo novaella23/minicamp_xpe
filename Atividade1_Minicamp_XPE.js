@@ -2,7 +2,7 @@ console.log("\n\nO aluno deverá criar um programa para informar a soma de todos
 
 //NÚMERO DIGITADO ABAIXO:
 
-const numero_digitado = 2000
+const numero_digitado = 100
 
 //PARA DEFINIR O ARRAY DOS MÚLTIPLOS DE 3 MENORES QUE O NÚMERO DIGITADO:
 
