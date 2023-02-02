@@ -1,5 +1,4 @@
 Roteiro - netlify-drop
 ======================
 
-(x) Implantar apps 'imc' e 'megasena-v2' com o Netlify Drop
-(x) Muito obrigado!
+() Implantar apps 'imc' e 'megasena-v2' com o Netlify Drop
