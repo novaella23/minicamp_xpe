@@ -1,0 +1,15 @@
+DOM - Document Object Model
+
+Estrutura hierárquica de conteúdo HTML
+
+
+Principais comandos para manipular o DOM:
+
+document.querySelector --> seletor de um único elemento (tag, class, id);
+document.querySelectorAll --> seletor de n elementos;
+document.createElement --> criação de elementos;
+appendChild --> inserção de filhos;
+addEventListener --> inclusão de um "escutador" de evento (quando); *importante: "quando" usuário sair da página, "quando" clicar, quando a página carregar... pode adicionar eventos... etc
+classList.add --> inclusão de classe CSS;
+classList.remove --> exclusão de classe CSS.
+
