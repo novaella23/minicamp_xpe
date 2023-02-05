@@ -12,17 +12,27 @@
 
   <body>
     <h1>IMC</h1>
-    <p>
-      <label for="input-weight">Informe o seu peso (kg):</label>
-      <input id="input-weight" type="text" />
-    </p>
-    <p>
-      <label for="input-height">Informe a sua altura (m):</label>
-      <input id="input-height" type="text" />
-    </p>
-    <p>
+    
+    <form>
+      <div class="content">
+        <div class="blc">
+          <label for="input-weight">Informe o seu peso (kg):</label>
+          <input id="input-weight" type="number" value=72 step="0.1/>
+        </div>
+        
+        <div class="blc">
+          <label for="input-height">Informe a sua altura (m):</label>
+          <input id="input-height" type="number" value=1.65 step="0.01"/>
+        </div>
+      </div>
+    </form>
+    
+
+    <div class="botao_e_resultado">
       <button id="button-calculate">Calcular IMC</button>
-    </p>
+
+      <p id="paragraph-result">O IMC desses dados é  <strong id="resultado"></strong></p>
+    </div>
 
     <script defer src="./js/script.js"></script>
   </body>

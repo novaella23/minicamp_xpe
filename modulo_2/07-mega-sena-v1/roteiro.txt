@@ -1,7 +1,7 @@
 Roteiro - megasena-v1
 =====================
 
-() Clonar projeto-base
+(x) Clonar projeto-base
 
 HTML: 
 () Criar título

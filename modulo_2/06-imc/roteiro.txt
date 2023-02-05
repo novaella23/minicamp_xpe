@@ -9,10 +9,10 @@ HTML:
 (x) Inserir div para conter o resultado do cálculo
 
 CSS:
-() Estilizar inputs de forma que fiquem com o mesmo tamanho
+(x) Estilizar inputs de forma que fiquem com o mesmo tamanho
 
 JavaScript:
-() Criar função start
+(x) Criar função start
 () Executar start()
 () Criar e implementar função calculateImc(weight, height)
 () Em start, obter os inputs e botão como variáveis com document.querySelector
