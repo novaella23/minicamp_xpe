@@ -13,46 +13,34 @@
       <p>Teste Prático 2 - XPE</p>
     </header>
     <main>
-      <table class="cabecalho">
-        <tr>
-          <th colspan="3">Super Calculadora</th>
-        </tr>
-
-        <tr>
-          <th colspan="3">
-            <form>
-              <label for="num1A" class="numA">Primeiro número (A)</label>
-              <input type="number" id="num1A" />
-              <label for="num2B" class="numB">Segundo número (B)</label>
-              <input type="number" id="num2B" />
-              <button id="button-calcular">Calcular</button>
-            </form>
-          </th>
-        </tr>
-      </table>
-
-      <table class="table-calculadora">
-        <tr>
-          <td>
-            Soma
-            <p id="soma">0</p>
-          </td>
-          <td>
-            Subtração A-B
-            <p id="subAB">0</p>
-          </td>
-
-          <td>
-            Subtração B-A
-            <p id="subBA">0</p>
-          </td>
-        </tr>
-        <tr>
-          <td>a preencher</td>
-          <td>a preencher</td>
-          <td>a preencher</td>
-        </tr>
-      </table>
+      <div class="cabecalho">
+        <h1>Calculadora</h1>
+        <div class="input-dados">
+          <label for="num1A" class="numA">Primeiro número (A)</label>
+          <input type="number" id="num1A" />
+          <label for="num2B" class="numB">Segundo número (B)</label>
+          <input type="number" id="num2B" />
+          <button id="button-calcular">Calcular</button>
+        </div>
+        <div class="output-dados">
+          <table class="table-calculadora">
+            <tr>
+              <td>
+                <p>Soma</p>
+                <span id="soma">0</span>
+              </td>
+              <td>
+                <p>Subtração A-B</p>
+                <span id="subAB">0</span>
+              </td>
+              <td>
+                <p>Subtração B-A</p>
+                <span id="subBA">0</span>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
     </main>
 
     <footer></footer>
