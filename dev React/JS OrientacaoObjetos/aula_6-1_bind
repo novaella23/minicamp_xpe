@@ -1,0 +1,23 @@
+function Retangulo(altura, largura) {
+  this.altura = altura;
+  this.largura = largura;
+  this.area = calculaArea;
+}
+
+function calculaArea() {
+  return this.altura * this.largura;
+}
+
+var r1 = new Retangulo(4, 7);
+//console.log(r1);//Retangulo { altura: 4, largura: 7, area: [Function: calculaArea] }
+console.log(r1.area()); //28
+
+var fn = r1.area;
+console.log(fn); //[Function: calculaArea]
+
+var fn2 = calculaArea.bind(r1); //
+console.log(fn2); //[Function: bound calculaArea]
+console.log(fn2()); //28
+//usar bind para chamar a função de um objeto
+
+var r2 = new Retangulo(7, 2);
